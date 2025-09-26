@@ -1,6 +1,6 @@
-İşe Yaramayan Windows Optimizasyonlarının Çürütülmesi.
+**İşe Yaramayan Windows Optimizasyonlarının Çürütülmesi.**
 
-BENİM TARAFIMDAN TEST EDİLENLEN WİNDOWSLAR.
+**BENİM TARAFIMDAN TEST EDİLENLEN WİNDOWSLAR.**
 
 - FR33THY W11 23h2 ve Opti Rehberi https://github.com/fr33thytweaks/Ultimate-Windows-Optimization-Guide
 - AtlasOS W11 23h2 https://atlasos.net

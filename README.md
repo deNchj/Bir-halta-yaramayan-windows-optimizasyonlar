@@ -1,4 +1,4 @@
-**İşe Yaramayan Windows Optimizasyonlarının Çürütülmesi.**
+İşe Yaramayan Windows Optimizasyonlarının Çürütülmesi.
 
 **BENİM TARAFIMDAN TEST EDİLENLEN WİNDOWSLAR.**
 

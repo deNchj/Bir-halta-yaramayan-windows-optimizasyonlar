@@ -19,9 +19,9 @@ BENİM TARAFIMDAN TEST EDİLENLEN WİNDOWSLAR.
 
 LTSC'yi test etmeye gerek yok çünkü bu, temelde bazı gereksiz özellikleri kaldırılmış ve yalnızca güvenlik güncelleştirmeleri içeren standart Windows sürümlerinin bir dalıdır. <br>
 
-**BENCHMARK DEĞİŞİMİNİ DİKKATE ALIN**
+**BENCHMARK DEĞİŞİMİNİ DİKKATE ALIN!**
 
-En iyi ISO değerini seçmek için bu kıyaslama testlerini analiz ediyorsanız, DURUN! <br>
+En iyi İSO değerini seçmek için bu kıyaslama testlerini analiz ediyorsanız, DURUN! <br>
 Farklılıklar, yalnızca kıyaslama testlerindeki farklılıklardan kaynaklanmaktadır.
 
 - Mavi = Ortalama FPS
@@ -72,13 +72,22 @@ Call Of Duty II 1080p
 ![image](https://github.com/user-attachments/assets/f695f47a-aedf-4bda-a15b-03e7afefdb13)
 
 **ÇÖZÜM**
+
 Karşılaştırma varyasyonları göz önüne alındığında, özel ISO'ların artık modası geçmiş olduğu açıktır.
 
-Çoğu Windows optimizasyonu çok az performans artışı sağlar veya hiç sağlamaz. Bunun tek istisnası, minimum arka plan işlemleri ve Windows Defender'ı devre dışı bırakmanın CPU kullanımı nedeniyle gözle görülür iyileştirmeler sağlayabildiği eski, düşük donanımlardır. Bu durum, özel ISO'ları tanıtanların sıklıkla karşılaştığı kıyaslama farklarını muhtemelen açıklıyor; çoğu zaman bu testler genellikle birkaç nesil eski, düşük işlemcili sistemlerde gerçekleştirilir.
+Çoğu Windows optimizasyonu çok az performans artışı sağlar veya hiç sağlamaz. 
+Bunun tek istisnası, minimum arka plan işlemleri ve Windows Defender'ı devre dışı bırakmanın CPU kullanımı nedeniyle gözle görülür iyileştirmeler sağlayabildiği eski, düşük donanımlardır. 
+Bu durum, özel İSO'ları tanıtanların sıklıkla karşılaştığı kıyaslama farklarını muhtemelen açıklıyor; çoğu zaman bu testler genellikle birkaç nesil eski, düşük işlemcili sistemlerde gerçekleştirilir.
 
-Kötü amaçlı yazılım, casus yazılım, kötü amaçlı optimizasyonlar, tuş kaydediciler veya hatta Bitcoin madencileri içerebilecek özel bir ISO yükleme riskini neden alıyorsunuz? Basit bir Windows kurulumu yeterli ve güvenlidir ve bunun yerine basit komut dosyaları kullanarak optimizasyonlar elde edebilirsiniz (eğer gerekirse).
+Kötü amaçlı yazılım, casus yazılım, kötü amaçlı optimizasyonlar, tuş kaydediciler veya hatta Bitcoin madencileri içerebilecek özel bir İSO yükleme riskini neden alıyorsunuz? 
+Default bir Windows kurulumu yeterli ve güvenlidir ve bunun yerine basit komut dosyaları kullanarak kendi optimizasyonlarınızı test ederek elde edebilirsiniz (eğer gerekirse).
 
-Açıklayamadığım bir istisna var: Windows 11 2025 Server ve Windows 10 2022 Server, 1080p Call of Duty: MW2 2022 kıyaslamasında CPU'ya bağlıyken önemli ölçüde daha iyi performans gösteriyor. Windows 10, Windows 11, Windows 11 2025 Server ve Windows 10 2022 Server'ı yeniden yükleyip tekrar test ettikten ve MW2 kıyaslamasını çalıştırıp gerçek bir maçta test ettikten sonra aynı sonuca ulaştım. Bilinmeyen bir nedenden dolayı, sunucu sürümleri MW2'de CPU'ya bağlıyken daha iyi performans gösteriyor. Bu benim bakış açıma göre açıklanamaz görünüyor, muhtemelen zayıf motor optimizasyonundan kaynaklanıyor. Ek olarak, yonga seti sürücüleri yüklenmediği sürece MW2, Windows 10 2022 Server'da kötü performans gösterdi, yonga seti sürücülü veya sürücüsüz diğer Windows sürümlerinde kıyaslamalar aynıydı.
+Açıklayamadığım bir istisna var: 
+Windows 11 2025 Server ve Windows 10 2022 Server, 1080p Call of Duty: MW2 2022 kıyaslamasında CPU'ya bağlıyken önemli ölçüde daha iyi performans gösteriyor. 
+Windows 10, Windows 11, Windows 11 2025 Server ve Windows 10 2022 Server'ı yeniden yükleyip tekrar test ettikten ve MW2 kıyaslamasını çalıştırıp gerçek bir maçta test ettikten sonra aynı sonuca ulaştım. 
+Bilinmeyen bir nedenden dolayı, sunucu sürümleri MW2'de CPU'ya bağlıyken daha iyi performans gösteriyor. 
+Bu benim bakış açıma göre açıklanamaz görünüyor, muhtemelen zayıf motor optimizasyonundan kaynaklanıyor. 
+Ek olarak, yonga seti sürücüleri yüklenmediği sürece MW2, Windows 10 2022 Server'da kötü performans gösterdi, yonga seti sürücülü veya sürücüsüz diğer Windows sürümlerinde kıyaslamalar aynıydı.
 
 
 **LATENCYMON BENCHMARKLARI NE OLACAK?**
@@ -92,13 +101,16 @@ Gerçekte, sürücü gecikmesi genel gecikme zincirinin yalnızca küçük bir p
 https://www.nvidia.com/en-au/geforce/guides/system-latency-optimization-guide/
 
 **LATENCYMON BENCHMARKLARI NE OLACAK?**
+
 LatencyMon ve Xperf, yalnızca sürücü sorunlarını veya sürücülerle ilgili ses kesintilerini teşhis etmek için kullanışlıdır. <br>
 Bu araçların amacı, ince ayar topluluklarında yanlış anlaşılmış ve birçok kişi bunların gerçek uçtan uca gecikmeyi ölçtüğüne inanmıştır. <br>
 
 Gerçekte, sürücü gecikmesi genel gecikme zincirinin yalnızca küçük bir parçasıdır, bu nedenle LatencyMon veya Xperf sonuçlarına takılıp kalmak zaman kaybıdır. <br>
 
 **Peki, asıl önemli olan ne?**
-Her şey temellere dayanıyor. Daha fazla kare ve daha düşük gecikme için optimizasyon yaparken gerçekten neyin önemli olduğuna dair düşüncelerim şöyle: Bu faktörlerle ölçeklemeyi gelecekteki videolarda göstermeyi planlıyorum, ancak şimdilik düşüncelerim bunlar.
+
+Her şey temellere dayanıyor. Daha fazla kare ve daha düşük gecikme için optimizasyon yaparken gerçekten neyin önemli olduğuna dair düşüncelerim şöyle
+Bu faktörlerle ölçeklemeyi gelecekteki videolarda göstermeyi planlıyorum, ancak şimdilik düşüncelerim bunlar.
 
 - Kareleri en hızlı üreten oyun işlemcisi (GPU ile yarışın)
 - Kareleri dışarı atan en hızlı oyun GPU'su (CPU, çözünürlük ve oyun ayarlarıyla uyumlu) (daha düşük GPU kullanımını korumaya yardımcı olur)
@@ -118,6 +130,7 @@ Her şey temellere dayanıyor. Daha fazla kare ve daha düşük gecikme için op
 - CPU ve GPU kullanımını kullanan arka plandaki programlar çalışıyor
 
 **SİSTEM**
+
 - MSI MPG 321URX 240hz 4k QD OLED (4k çözünürlükte 4k testleri, 1080p çözünürlükte 1080p testleri. Her iki ekran da ölçeklendirilmiştir)
 - 7950x3d (ccd1 devre dışı), = 7800x3d
 - PBO etkin, -10 tüm çekirdek, +200mhz
@@ -164,6 +177,7 @@ Her şey temellere dayanıyor. Daha fazla kare ve daha düşük gecikme için op
 - Samsung 970 pro 1 TB
 
 **KULLANILAN PROĞRAMLAR**
+
 - Sürücü 560.81, https://us.download.nvidia.com/Windows/560.81/560.81-desktop-win10-win11-64bit-international-dch-whql.exe
 - Frameview, ölçüm, https://www.nvidia.com/en-au/geforce/technologies/frameview/
 - Capframe X'i karşılaştırın, https://www.capframex.com/
@@ -171,6 +185,7 @@ Her şey temellere dayanıyor. Daha fazla kare ve daha düşük gecikme için op
 - Geforce oyun içi gecikme flaşı, https://nvidia.custhelp.com/app/answers/detail/a_id/5175/~/what-is-the-%E2%80%9Cflash-indicator%E2%80%9D-or-%E2%80%9Clatency-flash%E2%80%9D-option-in-my-nvidia
 
 **BENCHMARK YAPILAN OYUNLAR**
+
 - Call Of Duty III
 - Counter Strike 2, https://steamcommunity.com/workshop/filedetails/?id=3240880604
 - Fortnite, https://dropnite.com/map.php?id=1682
@@ -180,12 +195,14 @@ Her şey temellere dayanıyor. Daha fazla kare ve daha düşük gecikme için op
 - Call Of Duty II
 
 **YAPILANDIRMALAR**
+
 - Tüm başlıklar için zorunlu donatı, mw2 ve mw3 için zorunlu donatı çıkarıldı, https://github.com/Orbmu2k/nvidiaProfileInspector/releases denetçisi aracılığıyla
 - Tüm düşük, ultra dokular, ultra AF
 - 1080p ve 4k
 - Yapılandırma dosyaları buraya dahil edilmiştir
 
 **ADİL OLMAK İÇİN tüm kurulumlar aynı şeyi kullanıyor**
+
 - Grafik kartı hız aşırtması
 - Nvidia sürücü ayarları/denetleyici ayarları
 - BIOS ayarları
